@@ -33,7 +33,7 @@
 ### PUT /todos/:id
 
 - 지정된 id의 todo를 수정하고, 수정된 todo를 반환
-- body 형식: `{ "content": "foo", "done": true }`
+- body 형식: `{ "content": string, "done": boolean }`
   - `content` 나 `done` 둘 중 하나라도 없거나 타입이 맞지 않으면 `400 Bad Request`을 반환
 - return type: `Todo`
 
