@@ -1,5 +1,15 @@
 # todolist-server
 
+## How to run the server
+
+### 라이브러리 설치
+
+`npm i`
+
+### 서버 실행
+
+`npm run dev`
+
 ## REST API
 
 ---
