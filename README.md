@@ -2,11 +2,11 @@
 
 ## How to run the server
 
-### 라이브러리 설치
+### Install dependencies
 
 `npm i`
 
-### 서버 실행
+### Starting the server
 
 `npm run dev`
 
