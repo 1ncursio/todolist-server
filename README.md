@@ -27,7 +27,7 @@
 ### POST /todos
 
 - 새로운 todo를 생성하고, 생성된 todo를 반환
-- body 형식: `{ "content": "foo" }`
+- body 형식: `{ "content": string }`
 - return type: `Todo`
 
 ### PUT /todos/:id
